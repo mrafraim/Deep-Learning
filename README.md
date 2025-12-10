@@ -6,7 +6,7 @@
 | Day | Topic                     | Goal                                                                           |
 | --- | ------------------------- | -------------------------------------------------------------------------------------------------------- |
 | 1   | What is Deep Learning?    | Introduction, history, real-world examples, first neuron intuition, forward propagation of single neuron |
-| 2   | Neurons, Weights, Bias    | Deep dive into neuron structure, weights, bias, activation functions, visualizations                     |
+| 2   | Neurons, Weights, Bias & Activations    | Deep dive into neuron structure, weights, bias, activation functions, visualizations                     |
 | 3   | Forward Propagation       | Manual calculations, numpy implementation, ReLU, Sigmoid, Tanh                                           |
 | 4   | Tiny Neural Network       | Build 2-layer network from scratch in numpy                                                              |
 | 5   | Loss Functions            | MSE, Cross-Entropy, small examples                                                                       |
