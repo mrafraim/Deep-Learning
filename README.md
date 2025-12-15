@@ -12,7 +12,7 @@
 | 5   | Loss Functions            | MSE, Cross-Entropy, small examples                                                                       |
 | 6   | Optimizers                | Gradient Descent intuition, learning rate, update rules, simple code                                     |
 | 7   | Mini Exercise             | Manual neuron calculations, small network experiments                                                    |
-| 8   | Summary (Day 1 - Day 7) | wrap-up, code + visuals                                             |
+| 8   | Phase Summary | wrap-up, code + visuals                                             |
 
 
 ## **Phase 2: First Neural Networks & Backpropagation (Day 9–19)**
