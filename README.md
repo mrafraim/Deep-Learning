@@ -36,11 +36,11 @@
 
 | Day | Topic                       | Goal                            |
 | --- | --------------------------- | ------------------------------------------------- |
-| 20  | CNN intuition               | Filters, stride, padding, convolution example     |
+| 20  | CNN introduction               | Filters, stride, padding, convolution example     |
 | 21  | CNN Layers                  | Pooling, flatten, fully connected layers          |
 | 22  | CNN in PyTorch              | Build simple CNN for MNIST                        |
 | 23  | CNN training                | Forward + backward + optimizer, visualize filters |
-| 24  | RNN intuition               | Sequence data, hidden state, unrolling            |
+| 24  | RNN introduction               | Sequence data, hidden state, unrolling            |
 | 25  | LSTM & GRU                  | Why LSTM > RNN, gates explanation                 |
 | 26  | Simple RNN in PyTorch       | Manual sequence prediction                        |
 | 27  | LSTM example                | Text sequence prediction                          |
