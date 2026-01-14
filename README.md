@@ -1,4 +1,4 @@
-# **Deep Learning 44-Day Daily Roadmap**
+# **Deep Learning 57-Days Daily Roadmap**
 
 
 ## **Phase 1: Foundations (Day 1–8)**
@@ -54,7 +54,7 @@
 
 ## **Phase 4: Advanced Topics & Regularization (Day 34–44)**
 
-| Day | Topic                               | Goal                     |
+| Day | Topic                               | Goal                                      |
 | --- | ----------------------------------- | ----------------------------------------- |
 | 34  | Dropout & BatchNorm                 | Concept + small CNN example               |
 | 35  | Weight Initialization               | Why it matters, demo code                 |
@@ -69,3 +69,21 @@
 | 44  | Phase Summary                       | Notebook wrap-up, all techniques combined |
 
 ---
+## **Phase 5: CNN & RNN Mastery (Day 45–57)**
+
+| Day | Focus                                 | Goal                                                                                        |
+| --- | ------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 45  | CNN: Regularization & Tricks          | Dropout, BatchNorm, advanced augmentations, initialization techniques, optimizer comparison |
+| 46  | CNN: Hyperparameter Tuning            | Learning rate schedules, batch size, optimizer experiments, weight decay                    |
+| 47  | CNN: Multi-Class / Multi-Label        | Softmax, BCEWithLogits, thresholding, evaluation metrics                                    |
+| 48  | RNN: Advanced Training Techniques     | Gradient clipping, sequence padding, teacher forcing, masking                               |
+| 49  | RNN: LSTM / GRU Comparison            | Implement both, analyze performance, stability, and convergence                             |
+| 50  | RNN: Hyperparameters & Regularization | Dropout in RNN/LSTM, learning rate tuning, optimizer comparison                             |
+| 51  | CNN + RNN Hybrid Pipelines            | Image sequence prediction, text+image multi-modal, video frame sequence                     |
+| 52  | Sequence & Image Project              | End-to-end project with both CNN & RNN; visualization & analysis                            |
+| 53  | Advanced Optimization                 | Apply all tricks: schedulers, regularization, augmentations, optimizer experiments          |
+| 54  | Debugging & Evaluation                | Loss curves, metrics analysis, overfitting/underfitting detection                           |
+| 55  | Experiment Iteration                  | Refine previous projects with improvements based on evaluation                              |
+| 56  | Integration Practice                  | Build one “full mastery” pipeline combining CNN + RNN on a custom dataset                   |
+| 57  | Completion Challenge                  | End-to-end exercise applying all techniques learned for solid mastery                       |
+
