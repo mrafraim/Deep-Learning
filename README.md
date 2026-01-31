@@ -52,38 +52,39 @@
 | 33  | Phase Summary               | Notebook wrap-up with multiple small examples     |
 
 
-## **Phase 4: Advanced Topics & Regularization (Day 34–44)**
+## **Phase 4: CNN Advanced Mastery (Day 34–45)**
 
-| Day | Topic                               | Goal                                      |
-| --- | ----------------------------------- | ----------------------------------------- |
-| 34  | Dropout & BatchNorm                 | Concept + small CNN example               |
-| 35  | Weight Initialization               | Why it matters, demo code                 |
-| 36  | Advanced optimizers                 | Adam, AdamW, RMSProp                      |
-| 37  | Learning Rate Scheduling            | StepLR, CosineAnnealing, practical tuning |
-| 38  | Data Augmentation                   | Image augmentations, PyTorch transforms   |
-| 39  | Transfer Learning                   | Using pretrained ResNet, fine-tuning      |
-| 40  | Multi-class classification tricks   | Softmax, CrossEntropy, metrics            |
-| 41  | Multi-label classification          | BCEWithLogits, thresholding               |
-| 42  | Early stopping & checkpointing      | Save best model, prevent overfitting      |
-| 43  | Model evaluation & confusion matrix | Visualization, metrics explanation        |
-| 44  | Phase Summary                       | Notebook wrap-up, all techniques combined |
+| Day | Focus                              | Goal                                                                       |
+| --- | ---------------------------------- | -------------------------------------------------------------------------- |
+| 34  | CNN Regularization                 | Dropout placement, BatchNorm behavior (train vs eval), overfitting control |
+| 35  | CNN Weight Initialization          | Xavier vs He, dead ReLU problem, empirical comparisons                     |
+| 36  | CNN Optimizers                     | SGD vs Adam vs AdamW vs RMSProp, convergence tradeoffs                     |
+| 37  | CNN Learning Rate Scheduling       | StepLR, ReduceLROnPlateau, CosineAnnealing, LR intuition                   |
+| 38  | CNN Data Augmentation              | Geometric & color transforms, over/under-augmentation risks                |
+| 39  | CNN Multi-Class Classification     | Softmax, CrossEntropy, class imbalance, top-k accuracy                     |
+| 40  | CNN Multi-Label Classification     | BCEWithLogits, threshold tuning, PR tradeoffs                              |
+| 41  | CNN Evaluation & Debugging         | Confusion matrix, ROC/PR curves, error analysis                            |
+| 42  | CNN Early Stopping & Checkpointing | Validation-driven stopping, best-model saving                              |
+| 43  | CNN Hyperparameter Tuning          | Batch size–LR coupling, weight decay, controlled experiments               |
+| 44  | CNN Advanced Mini Project          | Apply all CNN techniques end-to-end (no shortcuts)                         |
+| 45  | CNN Mastery Validation             | Rebuild CNN from scratch, justify every design decision                    |
 
----
-## **Phase 5: CNN & RNN Mastery (Day 45–57)**
 
-| Day | Focus                                 | Goal                                                                                        |
-| --- | ------------------------------------- | ------------------------------------------------------------------------------------------- |
-| 45  | CNN: Regularization & Tricks          | Dropout, BatchNorm, advanced augmentations, initialization techniques, optimizer comparison |
-| 46  | CNN: Hyperparameter Tuning            | Learning rate schedules, batch size, optimizer experiments, weight decay                    |
-| 47  | CNN: Multi-Class / Multi-Label        | Softmax, BCEWithLogits, thresholding, evaluation metrics                                    |
-| 48  | RNN: Advanced Training Techniques     | Gradient clipping, sequence padding, teacher forcing, masking                               |
-| 49  | RNN: LSTM / GRU Comparison            | Implement both, analyze performance, stability, and convergence                             |
-| 50  | RNN: Hyperparameters & Regularization | Dropout in RNN/LSTM, learning rate tuning, optimizer comparison                             |
-| 51  | CNN + RNN Hybrid Pipelines            | Image sequence prediction, text+image multi-modal, video frame sequence                     |
-| 52  | Sequence & Image Project              | End-to-end project with both CNN & RNN; visualization & analysis                            |
-| 53  | Advanced Optimization                 | Apply all tricks: schedulers, regularization, augmentations, optimizer experiments          |
-| 54  | Debugging & Evaluation                | Loss curves, metrics analysis, overfitting/underfitting detection                           |
-| 55  | Experiment Iteration                  | Refine previous projects with improvements based on evaluation                              |
-| 56  | Integration Practice                  | Build one “full mastery” pipeline combining CNN + RNN on a custom dataset                   |
-| 57  | Completion Challenge                  | End-to-end exercise applying all techniques learned for solid mastery                       |
+## **Phase 5: RNN Advanced Mastery (Day 46–57)**
+
+| Day | Focus                       | Goal / What You Actually Master                          |
+| --- | --------------------------- | -------------------------------------------------------- |
+| 46  | RNN Training Pathologies    | Vanishing/exploding gradients, why vanilla RNNs fail     |
+| 47  | Gradient Clipping & Masking | Clip-by-norm, padding, masking variable-length sequences |
+| 48  | LSTM Deep Dive              | Gate mechanics, memory flow, stability intuition         |
+| 49  | GRU vs LSTM                 | Speed vs capacity, convergence behavior, use cases       |
+| 50  | RNN Regularization          | Dropout in RNN/LSTM, recurrent dropout realities         |
+| 51  | RNN Optimizers & Scheduling | Adam instability, LR sensitivity, practical tuning       |
+| 52  | Sequence Padding & Batching | Packed sequences, performance implications               |
+| 53  | RNN Evaluation              | Token vs sequence accuracy, exposure bias                |
+| 54  | RNN Hyperparameter Tuning   | Hidden size, layers, sequence length tradeoffs           |
+| 55  | RNN Mini Project            | Text or sequence task with clean training & evaluation   |
+| 56  | RNN Refinement              | Debug instability, improve generalization                |
+| 57  | RNN Mastery Validation      | Build RNN/LSTM from scratch and defend every choice      |
+
 
