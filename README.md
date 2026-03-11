@@ -1,4 +1,4 @@
-# **Deep Learning 57-Days Daily Roadmap**
+# **Deep Learning N-Days Daily Roadmap**
 
 
 ## **Phase 1: Foundations (Day 1–8)**
