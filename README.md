@@ -70,21 +70,18 @@
 | 45  | CNN Mastery Validation             | Rebuild CNN from scratch, justify every design decision                    |
 
 
-## **Phase 5: RNN Advanced Mastery (Day 46–57)**
+## **Phase 5: MLOps / Deployment / Scaling (Day 46–55)**
 
-| Day | Focus                       | Goal / What You Actually Master                          |
-| --- | --------------------------- | -------------------------------------------------------- |
-| 46  | RNN Training Pathologies    | Vanishing/exploding gradients, why vanilla RNNs fail     |
-| 47  | Gradient Clipping & Masking | Clip-by-norm, padding, masking variable-length sequences |
-| 48  | LSTM Deep Dive              | Gate mechanics, memory flow, stability intuition         |
-| 49  | GRU vs LSTM                 | Speed vs capacity, convergence behavior, use cases       |
-| 50  | RNN Regularization          | Dropout in RNN/LSTM, recurrent dropout realities         |
-| 51  | RNN Optimizers & Scheduling | Adam instability, LR sensitivity, practical tuning       |
-| 52  | Sequence Padding & Batching | Packed sequences, performance implications               |
-| 53  | RNN Evaluation              | Token vs sequence accuracy, exposure bias                |
-| 54  | RNN Hyperparameter Tuning   | Hidden size, layers, sequence length tradeoffs           |
-| 55  | RNN Mini Project            | Text or sequence task with clean training & evaluation   |
-| 56  | RNN Refinement              | Debug instability, improve generalization                |
-| 57  | RNN Mastery Validation      | Build RNN/LSTM from scratch and defend every choice      |
-
+| Day    | Topic                     | Goal                                                                                          |
+| ------ | ------------------------- | --------------------------------------------------------------------------------------------- |
+| **46** | Intro to Model Deployment | Understand research vs production, what “serving a model” means, end-to-end pipeline overview |
+| **47** | Saving & Loading Models   | Use `torch.save` / `torch.load`, save best CNN model, test loading correctness                |
+| **48** | Inference Pipeline        | Build function: image → preprocess → model → prediction (no training code)                    |
+| **49** | Flask Basics              | Learn routes, request/response, run a simple API locally                                      |
+| **50** | Deploy CNN with Flask     | Wrap your CNN model into API (`/predict` endpoint), test with image input                     |
+| **51** | FastAPI Introduction      | Build same API using FastAPI, understand why it's preferred                                   |
+| **52** | Docker Basics             | Learn Dockerfile, build image, run container locally                                          |
+| **53** | Docker + Model API        | Containerize your FastAPI/Flask app + CNN model                                               |
+| **54** | GPU Inference & Batching  | Run batch predictions, measure speed, understand CPU vs GPU inference                         |
+| **55** | Logging & Version Control | Add basic logging, use Git properly, intro to DVC (optional)                                  |
 
