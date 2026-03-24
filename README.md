@@ -3,10 +3,10 @@
 
 ## **Phase 1: Foundations (Day 1–8)**
 
-| Day | Topic                     | Goal                                                                           |
+| Day | Topic                     | Goal                                                                                                     |
 | --- | ------------------------- | -------------------------------------------------------------------------------------------------------- |
 | 1   | What is Deep Learning?    | Introduction, history, real-world examples, first neuron intuition, forward propagation of single neuron |
-| 2   | Neurons, Weights, Bias & Activations    | Deep dive into neuron structure, weights, bias, activation functions, visualizations                     |
+| 2   | Neurons, Weights, Bias & Activations    | Deep dive into neuron structure, weights, bias, activation functions, visualizations       |
 | 3   | Forward Propagation       | Manual calculations, numpy implementation, ReLU, Sigmoid, Tanh                                           |
 | 4   | Tiny Neural Network       | Build 2-layer network from scratch in numpy                                                              |
 | 5   | Loss Functions            | MSE, Cross-Entropy, small examples                                                                       |
@@ -85,3 +85,19 @@
 | **54** | GPU Inference & Batching  | Run batch predictions, measure speed, understand CPU vs GPU inference                         |
 | **55** | Logging & Version Control | Add basic logging, use Git properly, intro to DVC (optional)                                  |
 
+## **Phase 6: Object Detection Mastery (Day 56–67)**
+
+| Day    | Topic                                | Goal                                                                                                        |
+| ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **56** | Detection Fundamentals               | Understand classification vs detection, bounding boxes, IoU, NMS, mAP metric                                |
+| **57** | Dataset Selection & Preparation      | Choose dataset (COCO subset / Pascal VOC / custom), organize images & annotations, train/test split         |
+| **58** | CNN Backbone Review                  | Review your CNN knowledge, understand feature maps, anchors, and why CNNs are backbone of detectors         |
+| **59** | Pretrained Detection Models          | Explore YOLOv5 / YOLOv8 inference on sample images, visualize predictions, understand confidence thresholds |
+| **60** | Fine-tuning Detection Model          | Load pretrained model, fine-tune on small custom dataset, adjust anchors and learning rate                  |
+| **61** | Advanced Training Tricks             | Use augmentation (flips, scale, color), early stopping, learning rate scheduling for detection              |
+| **62** | Evaluation & Metrics                 | Compute mAP, IoU; analyze errors, visualize false positives/negatives                                       |
+| **63** | Multi-class / Multi-object Scenarios | Handle multiple objects per image, class imbalance, threshold tuning                                        |
+| **64** | Optimization & Inference             | Batch inference, GPU utilization, speed-memory tradeoffs, confidence calibration                            |
+| **65** | Detection Project                    | Build a mini project: custom dataset, trained model, evaluation, visualizations                             |
+| **66** | Deployment                           | Wrap detection model in a simple FastAPI endpoint locally, allow image upload → detection output            |
+| **67** | Portfolio Polish                     | Prepare notebook for portfolio: clean code, explanations, results, plots                                    |
