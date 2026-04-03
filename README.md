@@ -70,18 +70,18 @@
 
 ## **Phase 5: MLOps / Deployment / Scaling (Day 45–54)**
 
-| Day    | Topic                     | Goal                                                                                          |
-| ------ | ------------------------- | --------------------------------------------------------------------------------------------- |
-| 45 | Intro to Model Deployment | Understand research vs production, what “serving a model” means, end-to-end pipeline overview |
-| 46 | Saving & Loading Models   | Use `torch.save` / `torch.load`, save the best CNN model, test loading correctness                |
-| 47 | Inference Pipeline        | Build function: image → preprocess → model → prediction (no training code)                    |
-| 48 | Flask Basics              | Learn routes, request/response, run a simple API locally                                      |
-| 49 | Deploy CNN with Flask     | Wrap your CNN model into an API (`/predict` endpoint), test with image input                     |
-| 50 | FastAPI Introduction      | Build the same API using FastAPI, understand why it's preferred                                   |
-| 51 | Docker Basics             | Learn Dockerfile, build image, run container locally                                          |
-| 52 | Docker + Model API        | Containerize your FastAPI/Flask app + CNN model                                               |
-| 53 | GPU Inference & Batching  | Run batch predictions, measure speed, understand CPU vs GPU inference                         |
-| 54 | Logging & Version Control | Add basic logging, use Git properly, intro to DVC (optional)                                  |
+| Day    | Topic                        | Goal                                                                                    |
+| ------ | ---------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **45** | Intro to Model Deployment    | Understand research vs production, what “serving a model” means, and full pipeline (train → save → serve → predict) |
+| **46** | Saving & Loading Models      | Use `torch.save` / `torch.load`, save best CNN weights, load in separate script, verify correctness                 |
+| **47** | Inference Pipeline           | Build strict function: image → preprocessing → model → prediction (no training code allowed)                        |
+| **48** | FastAPI Basics               | Learn routes, request/response cycle, use `/docs` UI for testing endpoints                                          |
+| **49** | CNN + FastAPI Integration    | Wrap inference pipeline into `/predict` endpoint, test with real image upload                                       |
+| **50** | Pydantic & Error Handling    | Validate inputs (image only), handle bad inputs cleanly, return proper JSON responses                               |
+| **51** | Docker Basics                | Learn containers, write Dockerfile, build image, run container locally                                              |
+| **52** | Production Containerization  | Add FastAPI + model into Docker, run with Uvicorn (production-style server)                                         |
+| **53** | Stress Testing & Performance | Test multiple inputs, edge cases, batch inference, CPU vs GPU performance                                           |
+| **54** | Project Finalization         | Clean code, structure repo, write README, add usage guide & demo outputs                                            |
 
 ## **Phase 6: Object Detection Mastery (Day 55–66)**
 
