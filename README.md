@@ -67,37 +67,35 @@
 | 42  | CNN Early Stopping & Checkpointing | Validation-driven stopping, best-model saving                              |
 | 43  | CNN Hyperparameter Tuning          | Batch size–LR coupling, weight decay, controlled experiments               |
 | 44  | CNN Advanced Mini Project          | Apply all CNN techniques end-to-end (no shortcuts)                         |
-| 45  | CNN Mastery Validation             | Rebuild CNN from scratch, justify every design decision                    |
 
-
-## **Phase 5: MLOps / Deployment / Scaling (Day 46–55)**
+## **Phase 5: MLOps / Deployment / Scaling (Day 45–54)**
 
 | Day    | Topic                     | Goal                                                                                          |
 | ------ | ------------------------- | --------------------------------------------------------------------------------------------- |
-| **46** | Intro to Model Deployment | Understand research vs production, what “serving a model” means, end-to-end pipeline overview |
-| **47** | Saving & Loading Models   | Use `torch.save` / `torch.load`, save best CNN model, test loading correctness                |
-| **48** | Inference Pipeline        | Build function: image → preprocess → model → prediction (no training code)                    |
-| **49** | Flask Basics              | Learn routes, request/response, run a simple API locally                                      |
-| **50** | Deploy CNN with Flask     | Wrap your CNN model into API (`/predict` endpoint), test with image input                     |
-| **51** | FastAPI Introduction      | Build same API using FastAPI, understand why it's preferred                                   |
-| **52** | Docker Basics             | Learn Dockerfile, build image, run container locally                                          |
-| **53** | Docker + Model API        | Containerize your FastAPI/Flask app + CNN model                                               |
-| **54** | GPU Inference & Batching  | Run batch predictions, measure speed, understand CPU vs GPU inference                         |
-| **55** | Logging & Version Control | Add basic logging, use Git properly, intro to DVC (optional)                                  |
+| 45 | Intro to Model Deployment | Understand research vs production, what “serving a model” means, end-to-end pipeline overview |
+| 46 | Saving & Loading Models   | Use `torch.save` / `torch.load`, save the best CNN model, test loading correctness                |
+| 47 | Inference Pipeline        | Build function: image → preprocess → model → prediction (no training code)                    |
+| 48 | Flask Basics              | Learn routes, request/response, run a simple API locally                                      |
+| 49 | Deploy CNN with Flask     | Wrap your CNN model into an API (`/predict` endpoint), test with image input                     |
+| 50 | FastAPI Introduction      | Build the same API using FastAPI, understand why it's preferred                                   |
+| 51 | Docker Basics             | Learn Dockerfile, build image, run container locally                                          |
+| 52 | Docker + Model API        | Containerize your FastAPI/Flask app + CNN model                                               |
+| 53 | GPU Inference & Batching  | Run batch predictions, measure speed, understand CPU vs GPU inference                         |
+| 54 | Logging & Version Control | Add basic logging, use Git properly, intro to DVC (optional)                                  |
 
-## **Phase 6: Object Detection Mastery (Day 56–67)**
+## **Phase 6: Object Detection Mastery (Day 55–66)**
 
 | Day    | Topic                                | Goal                                                                                                        |
 | ------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| **56** | Detection Fundamentals               | Understand classification vs detection, bounding boxes, IoU, NMS, mAP metric                                |
-| **57** | Dataset Selection & Preparation      | Choose dataset (COCO subset / Pascal VOC / custom), organize images & annotations, train/test split         |
-| **58** | CNN Backbone Review                  | Review your CNN knowledge, understand feature maps, anchors, and why CNNs are backbone of detectors         |
-| **59** | Pretrained Detection Models          | Explore YOLOv5 / YOLOv8 inference on sample images, visualize predictions, understand confidence thresholds |
-| **60** | Fine-tuning Detection Model          | Load pretrained model, fine-tune on small custom dataset, adjust anchors and learning rate                  |
-| **61** | Advanced Training Tricks             | Use augmentation (flips, scale, color), early stopping, learning rate scheduling for detection              |
-| **62** | Evaluation & Metrics                 | Compute mAP, IoU; analyze errors, visualize false positives/negatives                                       |
-| **63** | Multi-class / Multi-object Scenarios | Handle multiple objects per image, class imbalance, threshold tuning                                        |
-| **64** | Optimization & Inference             | Batch inference, GPU utilization, speed-memory tradeoffs, confidence calibration                            |
-| **65** | Detection Project                    | Build a mini project: custom dataset, trained model, evaluation, visualizations                             |
-| **66** | Deployment                           | Wrap detection model in a simple FastAPI endpoint locally, allow image upload → detection output            |
-| **67** | Portfolio Polish                     | Prepare notebook for portfolio: clean code, explanations, results, plots                                    |
+| 55 | Detection Fundamentals               | Understand classification vs detection, bounding boxes, IoU, NMS, mAP metric                                |
+| 56 | Dataset Selection & Preparation      | Choose dataset (COCO subset / Pascal VOC / custom), organize images & annotations, train/test split         |
+| 57 | CNN Backbone Review                  | Review your CNN knowledge, understand feature maps, anchors, and why CNNs are backbone of detectors         |
+| 58 | Pretrained Detection Models          | Explore YOLOv5 / YOLOv8 inference on sample images, visualize predictions, understand confidence thresholds |
+| 59 | Fine-tuning Detection Model          | Load pretrained model, fine-tune on small custom dataset, adjust anchors and learning rate                  |
+| 60 | Advanced Training Tricks             | Use augmentation (flips, scale, color), early stopping, learning rate scheduling for detection              |
+| 61 | Evaluation & Metrics                 | Compute mAP, IoU; analyze errors, visualize false positives/negatives                                       |
+| 62 | Multi-class / Multi-object Scenarios | Handle multiple objects per image, class imbalance, threshold tuning                                        |
+| 63 | Optimization & Inference             | Batch inference, GPU utilization, speed-memory tradeoffs, confidence calibration                            |
+| 64 | Detection Project                    | Build a mini project: custom dataset, trained model, evaluation, visualizations                             |
+| 65 | Deployment                           | Wrap detection model in a simple FastAPI endpoint locally, allow image upload → detection output            |
+| 66 | Portfolio Polish                     | Prepare notebook for portfolio: clean code, explanations, results, plots                                    |
