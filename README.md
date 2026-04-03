@@ -52,7 +52,7 @@
 | 33  | Phase Summary               | Notebook wrap-up with multiple small examples     |
 
 
-## **Phase 4: CNN Advanced Mastery (Day 34–45)**
+## **Phase 4: CNN Advanced Mastery (Day 34–44)**
 
 | Day | Focus                              | Goal                                                                       |
 | --- | ---------------------------------- | -------------------------------------------------------------------------- |
